@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MW4Android</string>
+
+    <string name="game_label">MinesWeeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="restart">Restart</string>
+    <string name="new_game">New Game</string>
+    <string name="high_scores">High Scores</string>
+    <string name="scores">Scores</string>
+    <string name="rules">Rules</string>
+    <string name="exit">Exit</string>
+
+    <string name="mode_game">Difficult</string>
+    <string name="easy">Easy Level</string>
+    <string name="medium">Medium Level</string>
+    <string name="hard">Hard Level</string>
+
+    <string name="game_rules">Minesweeper is a grid of tiles, each of which may or may not cover hidden mines.
+        The goal is to click on every tile except those that have mines.
+        When a user clicks a tile, one of two things happens.
+        If the tile was covering a mine, the mine is revealed and the game ends in failure.
+        If the tile was not covering a mine, it instead reveals the number of adjacent (including diagonals) tiles that are covering mines – and,
+        if that number was 0, behaves as if the user has clicked on every cell around it.
+        When the user is confident that all tiles not containing mines have been clicked,
+        </string>
+
+    <string name="timer">000</string>
+    <string name="save">Save</string>
+    <string name="winner">Winner</string>
+    <string name="loser">Loser</string>
+    <string name="high_board_msg">Save your name in the Score board:</string>
+
+    <string name="exit_msg">Do you want return to menu?</string>
+
+</resources>

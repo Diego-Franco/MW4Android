@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Button android:id="@+id/new_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        android:minHeight="@dimen/min_height_btn"
+        android:minWidth="@dimen/min_with_btn"
+        android:drawableLeft="@mipmap/ic_launcher"/>
+
+    <Button android:id="@+id/high_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/high_scores"
+        android:minHeight="@dimen/min_height_btn"
+        android:minWidth="@dimen/min_with_btn"
+        android:drawableLeft="@mipmap/ic_explosion"/>
+
+    <Button android:id="@+id/rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"
+        android:minWidth="@dimen/min_with_btn"
+        android:minHeight="@dimen/min_height_btn"
+        android:drawableLeft="@mipmap/ic_flag"/>
+
+
+</LinearLayout>
